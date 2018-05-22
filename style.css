@@ -1,0 +1,80 @@
+/* body,
+div,
+span,
+iframe,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+big,
+cite,
+code,
+em,
+img,
+ins,
+q,
+s,
+small,
+strong,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+caption,
+tbody,
+tfoot,
+thead,
+canvas,
+footer,
+header,
+menu,
+nav,
+input {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+} */
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0;
+  margin: 0;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid lightgrey;
+    width: 16%;
+    padding: 10px;
+}
+
+td:first-child {
+    width: 4%;
+}
+
+tr:nth-child(2n){
+    background: whitesmoke;
+}
